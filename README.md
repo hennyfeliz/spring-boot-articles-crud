@@ -1,8 +1,11 @@
-#spring boot articles crud
+# Spring boot articles crud
 
 Simple crud for handling and administration of articles with database and all the services of the CRUD concept.
 
-### methods of use
+Using Maven Command: Download the project source code. Go to the root folder of the project using command prompt and run the command.
+`mvn spring-boot:run`
+
+### methods of use [you can use Postman to try it]
 
 1. Create :
 HTTP Method: POST, URL: /user/article
@@ -15,7 +18,7 @@ HTTP Method: GET, URL: /user/article/{id}
 HTTP Method: GET, URL: /user/articles
 ```
 GET -  http://localhost:8080/user/article/2
- GET -  http://localhost:8080/user/articles
+GET -  http://localhost:8080/user/articles
 ```
 
 3. Update :
